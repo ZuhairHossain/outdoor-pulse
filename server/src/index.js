@@ -10,13 +10,15 @@ import activityRoutes from './routes/activities.js';
 
 dotenv.config({ path: '../.env' });
 
-// Initialize Sentry for agent tracing
+// Initialize Sentry for error monitoring and tracing
 if (process.env.SENTRY_DSN) {
   Sentry.init({
     dsn: process.env.SENTRY_DSN,
+    environment: process.env.NODE_ENV || 'development',
     tracesSampleRate: 1.0,
     profilesSampleRate: 1.0,
   });
+  console.log('📊 Sentry initialized');
 }
 
 const app = express();
@@ -25,11 +27,6 @@ const PORT = process.env.PORT || 3001;
 // Middleware
 app.use(cors());
 app.use(express.json());
-
-// Sentry request handler
-if (process.env.SENTRY_DSN) {
-  Sentry.setupExpressErrorHandler(app);
-}
 
 // Health check
 app.get('/api/health', (req, res) => {
@@ -42,6 +39,11 @@ app.use('/api/weather', weatherRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api/audio', audioRoutes);
 app.use('/api/activities', activityRoutes);
+
+// Sentry error handler (must be after routes, before generic error handler)
+if (process.env.SENTRY_DSN) {
+  Sentry.setupExpressErrorHandler(app);
+}
 
 // Error handler
 app.use((err, req, res, next) => {
