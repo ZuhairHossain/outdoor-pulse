@@ -1,0 +1,692 @@
+[
+  {
+    "name": "Morning Nature Walk",
+    "category": "hiking",
+    "description": "Take a refreshing walk through nearby parks or trails, observing the morning light and wildlife activity.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 20, "max": 45 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain", "thunderstorm", "extreme_heat"],
+      "temp_range": { "min": 10, "max": 35 }
+    },
+    "seasonal": { "best_months": [1,2,3,4,5,6,7,8,9,10,11,12], "hemisphere": "both" },
+    "equipment": ["comfortable shoes", "water bottle"],
+    "tags": ["walking", "nature", "morning", "beginner-friendly", "relaxing"]
+  },
+  {
+    "name": "Urban Bird Watching",
+    "category": "birding",
+    "description": "Spot local bird species in parks, gardens, and green spaces. Early morning and late afternoon offer the best sightings.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 30, "max": 90 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy"],
+      "avoid": ["heavy_rain", "strong_wind", "thunderstorm"],
+      "temp_range": { "min": 8, "max": 35 }
+    },
+    "seasonal": { "best_months": [3,4,5,9,10,11], "hemisphere": "both" },
+    "equipment": ["binoculars", "bird field guide app", "comfortable shoes"],
+    "tags": ["birding", "wildlife", "nature", "patience", "photography"]
+  },
+  {
+    "name": "Sunset Photography Walk",
+    "category": "photography",
+    "description": "Capture the golden hour light on landscapes, architecture, and nature. Find elevated viewpoints or water reflections for stunning shots.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 30, "max": 60 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy"],
+      "avoid": ["heavy_rain", "overcast"],
+      "temp_range": { "min": 5, "max": 38 }
+    },
+    "seasonal": { "best_months": [1,2,3,4,5,6,7,8,9,10,11,12], "hemisphere": "both" },
+    "equipment": ["camera or smartphone", "comfortable shoes"],
+    "tags": ["photography", "sunset", "golden-hour", "creative", "scenic"]
+  },
+  {
+    "name": "Container Gardening Session",
+    "category": "gardening",
+    "description": "Tend to container plants on your balcony, rooftop, or patio. Repot, prune, fertilize, or start new seedlings.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 20, "max": 60 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain", "extreme_heat", "frost"],
+      "temp_range": { "min": 12, "max": 35 }
+    },
+    "seasonal": { "best_months": [3,4,5,6,7,8,9,10], "hemisphere": "both" },
+    "equipment": ["gardening gloves", "trowel", "watering can", "potting soil"],
+    "tags": ["gardening", "plants", "balcony", "rooftop", "relaxing", "therapeutic"]
+  },
+  {
+    "name": "Park Yoga or Stretching",
+    "category": "wellness",
+    "description": "Find a quiet spot in a park for an outdoor yoga or stretching session. The fresh air and natural surroundings enhance mindfulness.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 20, "max": 45 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy"],
+      "avoid": ["rain", "heavy_rain", "strong_wind", "extreme_heat"],
+      "temp_range": { "min": 15, "max": 32 }
+    },
+    "seasonal": { "best_months": [3,4,5,6,7,8,9,10,11], "hemisphere": "both" },
+    "equipment": ["yoga mat", "water bottle", "comfortable clothes"],
+    "tags": ["yoga", "wellness", "mindfulness", "stretching", "park", "relaxing"]
+  },
+  {
+    "name": "Trail Running",
+    "category": "running",
+    "description": "Hit a local trail for a run that combines cardio with nature immersion. Softer surfaces are easier on joints than pavement.",
+    "difficulty": "moderate",
+    "duration_minutes": { "min": 20, "max": 60 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain", "extreme_heat", "icy"],
+      "temp_range": { "min": 5, "max": 30 }
+    },
+    "seasonal": { "best_months": [3,4,5,6,7,8,9,10,11], "hemisphere": "both" },
+    "equipment": ["trail running shoes", "water bottle", "sunscreen"],
+    "tags": ["running", "trail", "cardio", "fitness", "nature"]
+  },
+  {
+    "name": "Neighborhood Cycling",
+    "category": "running",
+    "description": "Explore your neighborhood or nearby areas by bicycle. Discover new streets, parks, and local spots you've never noticed before.",
+    "difficulty": "moderate",
+    "duration_minutes": { "min": 30, "max": 90 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy"],
+      "avoid": ["heavy_rain", "strong_wind", "icy"],
+      "temp_range": { "min": 10, "max": 35 }
+    },
+    "seasonal": { "best_months": [3,4,5,6,7,8,9,10,11], "hemisphere": "both" },
+    "equipment": ["bicycle", "helmet", "water bottle"],
+    "tags": ["cycling", "explore", "fitness", "neighborhood", "adventure"]
+  },
+  {
+    "name": "Outdoor Sketching",
+    "category": "photography",
+    "description": "Bring a sketchbook to a scenic spot and draw what you see. Urban sketching, botanical illustration, or landscape drawing — any subject works.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 30, "max": 90 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy"],
+      "avoid": ["rain", "heavy_rain", "strong_wind"],
+      "temp_range": { "min": 12, "max": 35 }
+    },
+    "seasonal": { "best_months": [1,2,3,4,5,6,7,8,9,10,11,12], "hemisphere": "both" },
+    "equipment": ["sketchbook", "pencils or pens", "portable stool (optional)"],
+    "tags": ["art", "sketching", "creative", "scenic", "relaxing", "drawing"]
+  },
+  {
+    "name": "Herb Garden Planting",
+    "category": "gardening",
+    "description": "Start or maintain a herb garden. Plant basil, mint, cilantro, or local herbs. Great for cooking and attracts pollinators.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 20, "max": 45 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain", "frost", "extreme_heat"],
+      "temp_range": { "min": 15, "max": 32 }
+    },
+    "seasonal": { "best_months": [3,4,5,6,7,8,9], "hemisphere": "both" },
+    "equipment": ["herb seedlings or seeds", "pots", "soil", "watering can"],
+    "tags": ["gardening", "herbs", "cooking", "plants", "beginner-friendly"]
+  },
+  {
+    "name": "Stargazing",
+    "category": "scenic",
+    "description": "Find a dark spot away from city lights to observe stars, constellations, and planets. Best on clear moonless nights.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 30, "max": 120 },
+    "weather_conditions": {
+      "ideal": ["clear"],
+      "avoid": ["overcast", "rain", "cloudy"],
+      "temp_range": { "min": -5, "max": 30 }
+    },
+    "seasonal": { "best_months": [1,2,3,4,5,6,7,8,9,10,11,12], "hemisphere": "both" },
+    "equipment": ["blanket", "star chart app", "binoculars (optional)", "warm clothes"],
+    "tags": ["stargazing", "astronomy", "night", "scenic", "relaxing"]
+  },
+  {
+    "name": "Outdoor Meditation",
+    "category": "wellness",
+    "description": "Find a peaceful natural setting for guided or silent meditation. Focus on natural sounds — birds, water, wind in the trees.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 10, "max": 30 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain", "strong_wind", "thunderstorm"],
+      "temp_range": { "min": 12, "max": 33 }
+    },
+    "seasonal": { "best_months": [3,4,5,6,7,8,9,10,11], "hemisphere": "both" },
+    "equipment": ["cushion or mat", "comfortable clothes"],
+    "tags": ["meditation", "mindfulness", "wellness", "nature", "peaceful", "relaxing"]
+  },
+  {
+    "name": "Nature Scavenger Hunt",
+    "category": "family",
+    "description": "Create a list of natural items to find: specific leaf shapes, insects, bird types, flowers, or interesting rocks. Great for kids and adults alike.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 30, "max": 90 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain", "thunderstorm"],
+      "temp_range": { "min": 10, "max": 35 }
+    },
+    "seasonal": { "best_months": [3,4,5,6,7,8,9,10,11], "hemisphere": "both" },
+    "equipment": ["checklist", "camera", "magnifying glass (optional)"],
+    "tags": ["family", "kids", "scavenger-hunt", "nature", "fun", "educational"]
+  },
+  {
+    "name": "Sunrise Hike",
+    "category": "hiking",
+    "description": "Start early and reach a viewpoint in time for sunrise. The quiet trails and dramatic light make for an unforgettable experience.",
+    "difficulty": "moderate",
+    "duration_minutes": { "min": 60, "max": 180 },
+    "weather_conditions": {
+      "ideal": ["clear", "partly_cloudy"],
+      "avoid": ["heavy_rain", "fog", "thunderstorm"],
+      "temp_range": { "min": 5, "max": 30 }
+    },
+    "seasonal": { "best_months": [3,4,5,9,10,11], "hemisphere": "both" },
+    "equipment": ["headlamp", "hiking shoes", "water", "snacks", "layers"],
+    "tags": ["hiking", "sunrise", "adventure", "early-morning", "scenic", "challenging"]
+  },
+  {
+    "name": "Picnic in the Park",
+    "category": "family",
+    "description": "Pack a simple meal and enjoy it outdoors. Choose a spot with shade and a view. Great for socializing or solo unwinding.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 30, "max": 120 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy"],
+      "avoid": ["rain", "heavy_rain", "extreme_heat"],
+      "temp_range": { "min": 15, "max": 33 }
+    },
+    "seasonal": { "best_months": [3,4,5,6,7,8,9,10,11], "hemisphere": "both" },
+    "equipment": ["blanket", "food", "water", "utensils"],
+    "tags": ["picnic", "social", "relaxing", "family", "food", "park"]
+  },
+  {
+    "name": "Outdoor Calisthenics",
+    "category": "running",
+    "description": "Use park benches, bars, and open space for bodyweight exercises. Push-ups, pull-ups, squats, dips — no gym needed.",
+    "difficulty": "moderate",
+    "duration_minutes": { "min": 20, "max": 50 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain", "extreme_heat", "icy"],
+      "temp_range": { "min": 8, "max": 33 }
+    },
+    "seasonal": { "best_months": [1,2,3,4,5,6,7,8,9,10,11,12], "hemisphere": "both" },
+    "equipment": ["workout clothes", "water bottle", "towel"],
+    "tags": ["fitness", "calisthenics", "bodyweight", "park", "strength"]
+  },
+  {
+    "name": "Waterside Walk",
+    "category": "hiking",
+    "description": "Walk along a river, lake, canal, or coastline. The sound of water is calming and the scenery changes with the seasons.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 20, "max": 60 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain", "thunderstorm"],
+      "temp_range": { "min": 8, "max": 35 }
+    },
+    "seasonal": { "best_months": [1,2,3,4,5,6,7,8,9,10,11,12], "hemisphere": "both" },
+    "equipment": ["comfortable shoes", "water bottle", "camera"],
+    "tags": ["walking", "waterside", "river", "lake", "scenic", "relaxing"]
+  },
+  {
+    "name": "Leaf and Flower Pressing",
+    "category": "family",
+    "description": "Collect interesting leaves, flowers, and plant specimens to press and dry. A slow, meditative outdoor craft activity.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 30, "max": 60 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy"],
+      "avoid": ["rain", "heavy_rain"],
+      "temp_range": { "min": 10, "max": 32 }
+    },
+    "seasonal": { "best_months": [4,5,6,7,8,9,10], "hemisphere": "both" },
+    "equipment": ["collection bag", "notebook", "heavy book or press"],
+    "tags": ["craft", "botanical", "nature", "collecting", "creative", "family"]
+  },
+  {
+    "name": "Fall Foliage Walk",
+    "category": "scenic",
+    "description": "Explore areas with deciduous trees to enjoy autumn colors. Maples, oaks, and birches put on spectacular displays.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 30, "max": 90 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain", "strong_wind"],
+      "temp_range": { "min": 5, "max": 22 }
+    },
+    "seasonal": { "best_months": [9,10,11], "hemisphere": "north" },
+    "equipment": ["comfortable shoes", "camera", "warm layers"],
+    "tags": ["foliage", "autumn", "scenic", "photography", "walking", "seasonal"]
+  },
+  {
+    "name": "Cloud Watching",
+    "category": "wellness",
+    "description": "Lie on the grass and watch the clouds. Identify cloud types, spot shapes, and simply unplug. One of the simplest ways to touch grass.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 15, "max": 45 },
+    "weather_conditions": {
+      "ideal": ["partly_cloudy"],
+      "avoid": ["rain", "heavy_rain", "clear"],
+      "temp_range": { "min": 15, "max": 33 }
+    },
+    "seasonal": { "best_months": [1,2,3,4,5,6,7,8,9,10,11,12], "hemisphere": "both" },
+    "equipment": ["blanket", "sunglasses"],
+    "tags": ["relaxing", "clouds", "sky", "mindfulness", "simple", "unplugging"]
+  },
+  {
+    "name": "Vegetable Garden Tending",
+    "category": "gardening",
+    "description": "Work in your vegetable garden — weeding, watering, harvesting, or planting new crops based on the season.",
+    "difficulty": "moderate",
+    "duration_minutes": { "min": 30, "max": 90 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain", "extreme_heat", "frost"],
+      "temp_range": { "min": 12, "max": 33 }
+    },
+    "seasonal": { "best_months": [3,4,5,6,7,8,9,10], "hemisphere": "both" },
+    "equipment": ["gardening gloves", "tools", "watering can", "seeds or seedlings"],
+    "tags": ["gardening", "vegetables", "food-growing", "sustainable", "productive"]
+  },
+  {
+    "name": "Wildlife Photography",
+    "category": "photography",
+    "description": "Photograph birds, insects, squirrels, or any wildlife in parks and natural areas. Patience and quiet movement are key.",
+    "difficulty": "moderate",
+    "duration_minutes": { "min": 45, "max": 120 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain", "strong_wind"],
+      "temp_range": { "min": 5, "max": 35 }
+    },
+    "seasonal": { "best_months": [3,4,5,6,7,8,9,10], "hemisphere": "both" },
+    "equipment": ["camera with zoom lens", "patience", "comfortable shoes", "water"],
+    "tags": ["photography", "wildlife", "nature", "patience", "creative"]
+  },
+  {
+    "name": "Outdoor Reading",
+    "category": "wellness",
+    "description": "Take your book or e-reader to a park bench, garden, or hammock. Fresh air and natural light make reading more enjoyable.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 30, "max": 120 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy"],
+      "avoid": ["rain", "heavy_rain", "strong_wind"],
+      "temp_range": { "min": 15, "max": 33 }
+    },
+    "seasonal": { "best_months": [3,4,5,6,7,8,9,10,11], "hemisphere": "both" },
+    "equipment": ["book", "blanket or chair", "sunscreen", "water"],
+    "tags": ["reading", "relaxing", "park", "quiet", "simple"]
+  },
+  {
+    "name": "Botanical Garden Visit",
+    "category": "scenic",
+    "description": "Visit a local botanical garden to see curated plant collections, themed gardens, and seasonal displays.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 60, "max": 180 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain"],
+      "temp_range": { "min": 10, "max": 35 }
+    },
+    "seasonal": { "best_months": [3,4,5,6,7,8,9,10], "hemisphere": "both" },
+    "equipment": ["comfortable shoes", "camera", "water"],
+    "tags": ["botanical", "garden", "plants", "scenic", "educational", "photography"]
+  },
+  {
+    "name": "Geocaching Adventure",
+    "category": "family",
+    "description": "Use GPS coordinates to find hidden caches in your area. It's like a real-world treasure hunt that takes you to interesting outdoor locations.",
+    "difficulty": "moderate",
+    "duration_minutes": { "min": 30, "max": 120 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain", "thunderstorm"],
+      "temp_range": { "min": 5, "max": 35 }
+    },
+    "seasonal": { "best_months": [1,2,3,4,5,6,7,8,9,10,11,12], "hemisphere": "both" },
+    "equipment": ["smartphone with GPS", "pen", "comfortable shoes"],
+    "tags": ["geocaching", "adventure", "treasure-hunt", "exploration", "family", "GPS"]
+  },
+  {
+    "name": "Rainy Day Puddle Walk",
+    "category": "hiking",
+    "description": "Light rain makes for a magical walk. The world looks different when wet — colors are richer, smells are stronger, and trails are quiet.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 15, "max": 40 },
+    "weather_conditions": {
+      "ideal": ["light_rain", "drizzle"],
+      "avoid": ["thunderstorm", "extreme_cold", "heavy_rain"],
+      "temp_range": { "min": 12, "max": 28 }
+    },
+    "seasonal": { "best_months": [4,5,6,7,8,9,10], "hemisphere": "both" },
+    "equipment": ["rain jacket", "waterproof shoes", "umbrella"],
+    "tags": ["rain", "walking", "unique", "sensory", "peaceful", "different"]
+  },
+  {
+    "name": "Butterfly Watching",
+    "category": "birding",
+    "description": "Observe butterflies in gardens, meadows, and parks. Different species appear at different times of year. Bring a guide to identify them.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 20, "max": 60 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy"],
+      "avoid": ["rain", "heavy_rain", "cold", "strong_wind"],
+      "temp_range": { "min": 18, "max": 35 }
+    },
+    "seasonal": { "best_months": [4,5,6,7,8,9], "hemisphere": "both" },
+    "equipment": ["butterfly guide", "camera", "patience"],
+    "tags": ["butterflies", "insects", "nature", "observation", "gentle", "photography"]
+  },
+  {
+    "name": "Interval Running in the Park",
+    "category": "running",
+    "description": "Alternate between sprinting and walking across park paths. Use trees or landmarks as your interval markers.",
+    "difficulty": "challenging",
+    "duration_minutes": { "min": 15, "max": 40 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain", "extreme_heat", "icy"],
+      "temp_range": { "min": 5, "max": 30 }
+    },
+    "seasonal": { "best_months": [1,2,3,4,5,6,7,8,9,10,11,12], "hemisphere": "both" },
+    "equipment": ["running shoes", "water bottle", "timer"],
+    "tags": ["running", "intervals", "HIIT", "fitness", "park", "cardio"]
+  },
+  {
+    "name": "Tree Identification Walk",
+    "category": "hiking",
+    "description": "Learn to identify trees by their leaves, bark, and shape. Download a tree ID app and catalog the species in your neighborhood.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 30, "max": 75 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain", "thunderstorm"],
+      "temp_range": { "min": 5, "max": 35 }
+    },
+    "seasonal": { "best_months": [4,5,6,7,8,9,10], "hemisphere": "both" },
+    "equipment": ["tree identification app", "notebook", "camera"],
+    "tags": ["trees", "botany", "identification", "educational", "walking", "nature"]
+  },
+  {
+    "name": "Outdoor Journaling",
+    "category": "wellness",
+    "description": "Take a journal to a quiet outdoor spot and write. Nature provides inspiration and the change of scenery sparks new thoughts.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 20, "max": 60 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy"],
+      "avoid": ["rain", "heavy_rain", "strong_wind"],
+      "temp_range": { "min": 12, "max": 33 }
+    },
+    "seasonal": { "best_months": [3,4,5,6,7,8,9,10,11], "hemisphere": "both" },
+    "equipment": ["journal", "pen", "blanket or bench"],
+    "tags": ["journaling", "writing", "mindfulness", "creative", "quiet", "personal"]
+  },
+  {
+    "name": "Rock Climbing (Outdoor)",
+    "category": "hiking",
+    "description": "Find a local crag or bouldering spot for outdoor climbing. Always go with experienced partners and check route conditions.",
+    "difficulty": "challenging",
+    "duration_minutes": { "min": 60, "max": 240 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["rain", "heavy_rain", "extreme_heat", "icy"],
+      "temp_range": { "min": 8, "max": 30 }
+    },
+    "seasonal": { "best_months": [3,4,5,9,10,11], "hemisphere": "both" },
+    "equipment": ["climbing shoes", "harness", "chalk", "crash pad (bouldering)", "rope", "helmet"],
+    "tags": ["climbing", "adventure", "challenging", "strength", "outdoors", "adrenaline"]
+  },
+  {
+    "name": "Soil Preparation for Planting",
+    "category": "gardening",
+    "description": "Prepare garden beds by turning soil, adding compost, and testing pH. Good soil is the foundation of a successful garden.",
+    "difficulty": "moderate",
+    "duration_minutes": { "min": 30, "max": 90 },
+    "weather_conditions": {
+      "ideal": ["overcast", "partly_cloudy"],
+      "avoid": ["heavy_rain", "extreme_heat", "frost"],
+      "temp_range": { "min": 10, "max": 30 }
+    },
+    "seasonal": { "best_months": [2,3,4,8,9,10], "hemisphere": "both" },
+    "equipment": ["spade", "compost", "soil test kit", "wheelbarrow", "gloves"],
+    "tags": ["gardening", "soil", "composting", "preparation", "productive"]
+  },
+  {
+    "name": "Night Walk",
+    "category": "hiking",
+    "description": "Walk a familiar route after dark. Experience the neighborhood differently — notice sounds, lights, and nightlife you usually miss.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 20, "max": 45 },
+    "weather_conditions": {
+      "ideal": ["clear", "partly_cloudy"],
+      "avoid": ["heavy_rain", "thunderstorm", "extreme_cold"],
+      "temp_range": { "min": 8, "max": 30 }
+    },
+    "seasonal": { "best_months": [4,5,6,7,8,9,10], "hemisphere": "both" },
+    "equipment": ["flashlight", "reflective gear", "comfortable shoes"],
+    "tags": ["night", "walking", "urban", "exploration", "different-perspective"]
+  },
+  {
+    "name": "Composting Session",
+    "category": "gardening",
+    "description": "Manage your compost pile — turn it, add green and brown materials, check moisture. Turning waste into garden gold.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 15, "max": 30 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain"],
+      "temp_range": { "min": 5, "max": 35 }
+    },
+    "seasonal": { "best_months": [1,2,3,4,5,6,7,8,9,10,11,12], "hemisphere": "both" },
+    "equipment": ["pitchfork", "compost bin", "garden waste", "kitchen scraps"],
+    "tags": ["composting", "sustainable", "gardening", "eco-friendly", "productive"]
+  },
+  {
+    "name": "Kayaking or Canoeing",
+    "category": "hiking",
+    "description": "Paddle on a river, lake, or canal. A great full-body workout with constantly changing views of nature from the water.",
+    "difficulty": "moderate",
+    "duration_minutes": { "min": 45, "max": 180 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy"],
+      "avoid": ["thunderstorm", "strong_wind", "extreme_cold"],
+      "temp_range": { "min": 12, "max": 35 }
+    },
+    "seasonal": { "best_months": [4,5,6,7,8,9,10], "hemisphere": "both" },
+    "equipment": ["kayak or canoe", "paddle", "life jacket", "waterproof bag", "sunscreen"],
+    "tags": ["kayaking", "canoeing", "water", "adventure", "fitness", "scenic"]
+  },
+  {
+    "name": "Rooftop Stargazing",
+    "category": "scenic",
+    "description": "If you have roof access, head up after dark for a stargazing session above the street lights. Even in cities, you can spot planets and major constellations.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 20, "max": 60 },
+    "weather_conditions": {
+      "ideal": ["clear"],
+      "avoid": ["overcast", "rain", "cloudy"],
+      "temp_range": { "min": 5, "max": 30 }
+    },
+    "seasonal": { "best_months": [1,2,3,4,5,6,7,8,9,10,11,12], "hemisphere": "both" },
+    "equipment": ["binoculars", "star chart app", "blanket", "warm clothes"],
+    "tags": ["stargazing", "rooftop", "night", "astronomy", "urban", "peaceful"]
+  },
+  {
+    "name": "Foraging Walk",
+    "category": "hiking",
+    "description": "Learn to identify edible wild plants, berries, and mushrooms in your area. Always verify with an expert before eating anything wild.",
+    "difficulty": "moderate",
+    "duration_minutes": { "min": 45, "max": 120 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain"],
+      "temp_range": { "min": 8, "max": 30 }
+    },
+    "seasonal": { "best_months": [4,5,6,7,8,9,10], "hemisphere": "both" },
+    "equipment": ["foraging guide", "basket", "gloves", "camera for ID"],
+    "tags": ["foraging", "wild-food", "nature", "identification", "adventure", "educational"]
+  },
+  {
+    "name": "Barefoot Grounding",
+    "category": "wellness",
+    "description": "Walk barefoot on grass, sand, or soil for 15–30 minutes. Grounding (earthing) is the most literal way to touch grass and reconnect with nature.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 10, "max": 30 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy"],
+      "avoid": ["extreme_cold", "extreme_heat"],
+      "temp_range": { "min": 18, "max": 32 }
+    },
+    "seasonal": { "best_months": [4,5,6,7,8,9,10], "hemisphere": "both" },
+    "equipment": ["nothing — that's the point"],
+    "tags": ["grounding", "barefoot", "wellness", "mindfulness", "simple", "grass", "earthing"]
+  },
+  {
+    "name": "Seed Saving",
+    "category": "gardening",
+    "description": "Collect and save seeds from mature plants in your garden. Label and store them for next season. An ancient practice that saves money and preserves varieties.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 20, "max": 45 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy"],
+      "avoid": ["rain", "heavy_rain"],
+      "temp_range": { "min": 10, "max": 30 }
+    },
+    "seasonal": { "best_months": [8,9,10,11], "hemisphere": "north" },
+    "equipment": ["paper envelopes", "pen for labeling", "scissors", "container"],
+    "tags": ["seeds", "gardening", "sustainable", "preservation", "seasonal"]
+  },
+  {
+    "name": "Outdoor Tai Chi",
+    "category": "wellness",
+    "description": "Practice tai chi movements in a park or garden. The slow, flowing movements combined with fresh air create deep relaxation.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 15, "max": 45 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["rain", "heavy_rain", "extreme_cold", "strong_wind"],
+      "temp_range": { "min": 12, "max": 32 }
+    },
+    "seasonal": { "best_months": [3,4,5,6,7,8,9,10,11], "hemisphere": "both" },
+    "equipment": ["comfortable clothes", "flat shoes"],
+    "tags": ["tai-chi", "martial-arts", "wellness", "mindfulness", "movement", "park"]
+  },
+  {
+    "name": "Macro Photography in Nature",
+    "category": "photography",
+    "description": "Get close to small subjects — insects, dewdrops, flower petals, textures. A whole world appears when you look closely.",
+    "difficulty": "moderate",
+    "duration_minutes": { "min": 30, "max": 90 },
+    "weather_conditions": {
+      "ideal": ["sunny", "overcast"],
+      "avoid": ["heavy_rain", "strong_wind"],
+      "temp_range": { "min": 10, "max": 33 }
+    },
+    "seasonal": { "best_months": [4,5,6,7,8,9], "hemisphere": "both" },
+    "equipment": ["camera with macro lens or clip-on macro", "tripod (optional)", "patience"],
+    "tags": ["photography", "macro", "close-up", "insects", "flowers", "creative", "detail"]
+  },
+  {
+    "name": "Neighborhood Cleanup Walk",
+    "category": "family",
+    "description": "Walk through your neighborhood picking up litter. Combines exercise with community service and environmental care.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 20, "max": 60 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain", "extreme_heat"],
+      "temp_range": { "min": 8, "max": 35 }
+    },
+    "seasonal": { "best_months": [1,2,3,4,5,6,7,8,9,10,11,12], "hemisphere": "both" },
+    "equipment": ["garbage bag", "gloves", "grabber tool (optional)"],
+    "tags": ["cleanup", "community", "volunteer", "environment", "walking", "productive"]
+  },
+  {
+    "name": "Park Boot Camp",
+    "category": "running",
+    "description": "A structured outdoor workout using park equipment and open space. Combine burpees, lunges, step-ups, and sprints.",
+    "difficulty": "challenging",
+    "duration_minutes": { "min": 30, "max": 60 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain", "extreme_heat", "icy"],
+      "temp_range": { "min": 5, "max": 30 }
+    },
+    "seasonal": { "best_months": [1,2,3,4,5,6,7,8,9,10,11,12], "hemisphere": "both" },
+    "equipment": ["workout clothes", "shoes", "water", "towel"],
+    "tags": ["boot-camp", "fitness", "intense", "park", "strength", "cardio"]
+  },
+  {
+    "name": "Flower Arrangement Gathering",
+    "category": "gardening",
+    "description": "Gather seasonal flowers from your garden (or forage roadside wildflowers where permitted) to create a fresh arrangement at home.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 20, "max": 45 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy"],
+      "avoid": ["heavy_rain", "strong_wind"],
+      "temp_range": { "min": 12, "max": 30 }
+    },
+    "seasonal": { "best_months": [4,5,6,7,8,9], "hemisphere": "both" },
+    "equipment": ["scissors or pruners", "basket or bucket", "vase"],
+    "tags": ["flowers", "gardening", "creative", "decorative", "seasonal", "gentle"]
+  },
+  {
+    "name": "Dawn Chorus Listening",
+    "category": "birding",
+    "description": "Wake before sunrise and sit outside to listen as birds start their morning chorus. Each species has its own voice and timing.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 20, "max": 45 },
+    "weather_conditions": {
+      "ideal": ["clear", "partly_cloudy"],
+      "avoid": ["heavy_rain", "strong_wind"],
+      "temp_range": { "min": 5, "max": 25 }
+    },
+    "seasonal": { "best_months": [3,4,5,6], "hemisphere": "north" },
+    "equipment": ["warm clothes", "thermos of tea or coffee", "bird song app (optional)"],
+    "tags": ["birding", "dawn", "listening", "sounds", "early-morning", "peaceful"]
+  },
+  {
+    "name": "Coastal Rock Pooling",
+    "category": "family",
+    "description": "Explore rock pools at low tide to find crabs, anemones, small fish, and seaweed. A magical activity for all ages.",
+    "difficulty": "easy",
+    "duration_minutes": { "min": 30, "max": 90 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain", "strong_wind"],
+      "temp_range": { "min": 10, "max": 30 }
+    },
+    "seasonal": { "best_months": [5,6,7,8,9], "hemisphere": "both" },
+    "equipment": ["waterproof shoes", "bucket", "magnifying glass", "tide table"],
+    "tags": ["coast", "marine", "exploration", "family", "tidal", "nature"]
+  },
+  {
+    "name": "Speed Hiking",
+    "category": "hiking",
+    "description": "Hike at an aggressive pace for a combined cardio and nature workout. Use trekking poles for extra speed and stability.",
+    "difficulty": "challenging",
+    "duration_minutes": { "min": 30, "max": 120 },
+    "weather_conditions": {
+      "ideal": ["sunny", "partly_cloudy", "overcast"],
+      "avoid": ["heavy_rain", "extreme_heat", "icy"],
+      "temp_range": { "min": 5, "max": 28 }
+    },
+    "seasonal": { "best_months": [3,4,5,6,9,10,11], "hemisphere": "both" },
+    "equipment": ["trail shoes", "trekking poles", "hydration pack", "energy snacks"],
+    "tags": ["hiking", "speed", "fitness", "cardio", "challenging", "trail"]
+  }
+]
