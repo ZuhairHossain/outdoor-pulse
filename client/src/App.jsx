@@ -7,7 +7,7 @@ import ProfileSetup from './components/ProfileSetup';
 import LoadingState from './components/LoadingState';
 import LocationBar from './components/LocationBar';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+const API_URL = import.meta.env.VITE_API_URL || '';
 
 function App() {
   const [profile, setProfile] = useState(() => {
