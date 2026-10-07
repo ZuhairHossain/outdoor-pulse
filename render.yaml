@@ -3,8 +3,6 @@ services:
   - type: web
     name: outdoor-pulse-api
     runtime: node
-    region: singapore
-    plan: free
     buildCommand: cd server && npm install
     startCommand: cd server && node src/index.js
     envVars:
@@ -27,7 +25,6 @@ services:
   - type: web
     name: outdoor-pulse
     runtime: static
-    plan: free
     buildCommand: cd client && npm install && npm run build
     staticPublishPath: client/dist
     envVars:
